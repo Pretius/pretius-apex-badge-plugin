@@ -1,0 +1,36 @@
+{
+  "name" : "Pretius APEX Badge",
+  "version" : "24.2.0",
+  "description" : "Allows the creation and display of badges that can be associated with any APEX Page element",
+  "keywords" : ["badge","counter","number"],
+  "homepage" : "https://github.com/Pretius/pretius-apex-badge-plugin",
+  "bugs" : {
+    "url" : "https://github.com/Pretius/pretius-apex-badge-plugin/issues",
+    "email" : "apex-plugins@pretius.com"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "commercially_supported": "Yes",
+  "author": {
+    "name": "Pretius",
+    "email": "apex-plugins@pretius.com",
+    "url": "http://www.pretius.com",
+    "twitter": "PretiusSoftware"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Pretius/pretius-apex-badge-plugin.git"
+  },
+  "oracle": {
+    "versions": ["23.2.0", "21.1.0", "19.1.0"],
+    "apex": {
+      "versions": ["24.2.0"],
+      "plugin": {
+        "internalName" : "COM.PRETIUS.APEX.BADGE",
+        "type" : "dynamic action",
+        "demo": "https://apex.oracle.com/pls/apex/r/luf/BADGE-%EF%B8%8F102/home",
+        "previewImage" : "https://raw.githubusercontent.com/Pretius/pretius-apex-badge-plugin/master/assets/preview.png?raw=true"
+      }
+    }
+  }
+}
